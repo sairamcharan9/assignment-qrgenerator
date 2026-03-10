@@ -3,9 +3,9 @@
 This repository contains the Dockerized version of the QR Code Generator application, created as part of the assignment requirements. 
 
 ## Student Information
-- **Name:** [Your Name]
+- **Name:** SAI RAM CHARAN 
 - **GitHub Username:** sairamcharan9
-- **DockerHub Repository:** [Your DockerHub Username]/qr-code-generator-app
+- **DockerHub Repository:** sb2853/assignment-qrgenerator
 
 ---
 
@@ -17,7 +17,7 @@ https://github.com/sairamcharan9/assignment-qrgenerator
 
 ### 2. DockerHub Image Link
 The link to the Docker Hub image:
-*[Insert your Docker Hub URL here after pushing the image, e.g., https://hub.docker.com/r/sairamcharan9/qr-code-generator-app]*
+https://hub.docker.com/r/sb2853/assignment-qrgenerator
 
 ### 3. Required Screenshots
 
@@ -47,10 +47,10 @@ cd assignment-qrgenerator
 
 **2. Build the Docker Image:**
 ```bash
-docker build -t qr-code-generator-app .
+docker build -t assignment-qrgenerator .
 ```
 
 **3. Run the Container with Volume Mapping (to save the QR code locally):**
 ```bash
-docker run -d --name qr-generator -v "${PWD}/qr_codes:/app/qr_codes" qr-code-generator-app --url https://github.com/sairamcharan9
+docker run -d --name qr-generator -v "${PWD}/qr_codes:/app/qr_codes" assignment-qrgenerator --url https://github.com/sairamcharan9
 ```
