@@ -24,12 +24,12 @@ https://hub.docker.com/r/sb2853/assignment-qrgenerator
 #### A. Container Logs
 This screenshot demonstrates that the Docker container ran successfully and the application operated as expected by generating a QR code.
 
-![Container Logs Screenshot]([Replace this text with the path to your screenshot image, e.g., ./screenshots/container_logs.png])
+![Container Logs Screenshot](./screenshots/docker_run_succesful.png)
 
 #### B. GitHub Actions Workflow
 This screenshot demonstrates a successful automated run of the workflow consisting of testing and building the Docker image.
 
-![GitHub Actions Screenshot]([Replace this text with the path to your screenshot image, e.g., ./screenshots/github_actions.png])
+![GitHub Actions Screenshot](./screenshots/actions_github.png)
 
 ### 4. Reflection Document
 The detailed reflection addressing the experiences and challenges faced during Dockerization can be found here:
