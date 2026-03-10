@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs
+logs/
+*.log
+
+# Output directory for QR codes
+qr_codes/
+*.png
+
+# Text editor / OS files
+.DS_Store
+.vscode/
+.idea/
+
+# Docker
+.dockerignore
+build.log
+images.txt
