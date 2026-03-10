@@ -19,6 +19,7 @@ logs/
 # Output directory for QR codes
 qr_codes/
 *.png
+!screenshots/*.png
 
 # Text editor / OS files
 .DS_Store
